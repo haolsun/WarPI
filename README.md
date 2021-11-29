@@ -6,7 +6,7 @@ Run
 <code>python main.py --corruption_type <i>flip</i> --corruption_prob <i>0.4</i> --dataset <i>cifar10</i> --sample_number <i>1</i> --gpuid <i>0</i> </code>
 
 
-<b>Cite DivideMix</b>\
+<b>Cite</b>\
 If you find the code useful, please consider citing our paper:
 
 <pre>
