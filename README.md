@@ -3,7 +3,7 @@ The official PyTorch implemention of our paper "Learning to Rectify for Robust L
 
 
 Run 
-<code>python main.py --corruption_type <i>flip</i> --corruption_prob <i>0.4</i> --dataset <i>cifar10</i> --sample_number <i>1</i> --gpuid <i>0</i> </code>
+<code>python main.py --corruption_type <i>flip</i> --corruption_prob <i>0.4</i> --dataset <i>cifar10</i> --sample_number <i>1</i> --gpuid <i>0</i> --sample_number <i>1</i> </code>
 
 
 <b>Cite</b>\
