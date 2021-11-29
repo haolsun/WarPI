@@ -31,7 +31,7 @@ parser.add_argument('--WReNset', default=False, type=bool, help='using WideResNe
 parser.add_argument('--no-augment', dest='augment', action='store_false', help='whether to use standard augmentation (default: True)')
 parser.add_argument('--resume', default='', type=str, help='path to latest checkpoint (default: none)')
 parser.add_argument('--seed', type=int, default=1)
-parser.add_argument('--prefetch', type=int, default=0, help='Pre-fetching threads.')
+parser.add_argument('--prefetch', type=int, default=4, help='Pre-fetching threads.')
 parser.add_argument('--gpuid', type=str, default='0')
 parser.add_argument('--sample_number', type=int, default=3)
 parser.set_defaults(augment=True)
