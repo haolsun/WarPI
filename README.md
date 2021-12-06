@@ -14,10 +14,12 @@ If you find the code useful, please consider citing our paper:
 title = {Learning to Rectify for Robust Learning with Noisy Labels},
 author = {Haoliang Sun and Chenhui Guo and Qi Wei and Zhongyi Han and Yilong Yin},
 journal = {Pattern Recognition},
+volume = {124},
 pages = {108467},
-year = {2021},
+year = {2022},
 issn = {0031-3203},
-doi = {https://doi.org/10.1016/j.patcog.2021.108467}
+doi = {https://doi.org/10.1016/j.patcog.2021.108467},
+url = {https://www.sciencedirect.com/science/article/pii/S0031320321006439},
 }</pre>
 
 <b>License</b>\
