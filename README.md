@@ -19,7 +19,7 @@ pages = {108467},
 year = {2022},
 issn = {0031-3203},
 doi = {https://doi.org/10.1016/j.patcog.2021.108467},
-url = {https://www.sciencedirect.com/science/article/pii/S0031320321006439},
+url = {https://www.sciencedirect.com/science/article/pii/S0031320321006439}
 }</pre>
 
 <b>License</b>\
