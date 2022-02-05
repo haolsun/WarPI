@@ -41,8 +41,11 @@ os.environ['CUDA_VISIBLE_DEVICES'] = args.gpuid
 
 
 def build_dataset(root, args):
-    normalize = transforms.Normalize(mean=[x / 255.0 for x in [125.3, 123.0, 113.9]],
-                                     std=[x / 255.0 for x in [63.0, 62.1, 66.7]])
+    if args.dataset == 'cifar10':
+        normalize = transforms.Normalize((0.4914,0.4822,0.4465),(0.2023,0.1994,0.2010))
+    elif args.dataset == 'cifar100':
+        normalize = transforms.Normalize((0.507,0.487,0.441),(0.267,0.265,0.276))
+            
     if args.augment:
         train_transform = transforms.Compose([
             transforms.ToTensor(),
