@@ -158,7 +158,7 @@ class wpi_dec(MetaModule):
         self.linear2 = MetaLinear(hidden1, hidden1)
         self.linear_mean = MetaLinear(hidden1, output)
 
-        self.cls_emb = nn.Embedding(output, 10)  # or 100
+        self.cls_emb = nn.Embedding(output, output)  # 10 or 100
 
         self.init_weights()
 
