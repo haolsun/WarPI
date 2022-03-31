@@ -34,7 +34,7 @@ def creat_model():
 
 
 def adjust_lr(optimizer, epochs):
-    lr = args.lr * (0.1 * int(epochs >= 10)) * (0.1 * int(epochs >= 20))
+    lr = args.lr * (0.1 ** int(epochs >= 10)) * (0.1 ** int(epochs >= 20))
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
 
